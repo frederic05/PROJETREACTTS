@@ -11,7 +11,7 @@ const Ppageone = ({data}: Props) => {
     const [curent, setCurent]= useState<Project[]>(data)
     
     function hanDlerClick(data: Project ) {
-        console.log('',JSON.stringify(data, null, ' '));
+        //console.log('',JSON.stringify(data, null, ' '));
     }
 
   return (
